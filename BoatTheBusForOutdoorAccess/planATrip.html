@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:700"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freehand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <!-- <script defer src="src/js/controller.js"></script> -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        console.log('DOM ready!');
+      });
+    </script>
+        <script>
+          var parcelRequire;
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script type="module" src="src/js/controller.js"></script>
+    <title>BOAT: The Bus for Outdoor Access</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <a href="index.html">
+        <img src="src/img/logo.png" alt="Logo" class="header__logo"
+      /></a>
+      <ul class="nav__list hidden">
+        <li class="nav__item">
+          <a href="whoWeAre.html">Who We Are</a>
+        </li>
+        <li class="nav__item">
+          <a href="whatWeDo.html">What We Do</a>
+        </li>
+        <li class="nav__item">
+          <a href="findYourTrip.html">Find Your Trip</a>
+        </li>
+        <li class="nav__item">
+          <a href="planATrip.html">Plan a Trip</a>
+        </li>
+        <li class="nav__item">
+          <a href="supportOurMission.html">Support Our Mission</a>
+        </li>
+        <li class="nav__item">
+          <a href="annualReport.html">Annual Report</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Introduction text on homepage -->
+    <!-- <div id="homeContainer"> -->
+    <div class="sectionHeader">
+      <!-- <video autoplay controls loop id="planATripHeader" src="src/img/planATripHeader.mov">
+      </video> -->
+      <div class="planATrip headerBanner"></div>
+        <div class="textBlockUnanimated rightBlock">
+          <h1>Propose a Trip</h1>
+          <h2>BOAT works through partnerships – our next one could be with you!</h2>
+          <p>
+            Complete the form below to start the process of trip planning – we’ll follow up with proposals and availability.
+            Please note: you can make transportation requests through this form!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="formSection">
+    <div class="leftImages" id="fourTiers">
+      <div class="planATrip1" href="#outdoorClass">
+        <div class="overlay1"></div>
+      </div>
+      <div class="planATrip2" href="#outdoorClass">
+        <div class="overlay1"></div>
+      </div>
+      <div class="planATrip3" href="#outdoorClass">
+        <div class="overlay1"></div>
+      </div>
+      <div class="planATrip4" href="#outdoorClass">
+        <div class="overlay1"></div>
+      </div>
+      <div class="planATrip5" href="#outdoorClass">
+        <div class="overlay1"></div>
+      </div>
+      <div class="planATrip6" href="#outdoorClass">
+        <div class="overlay1"></div>
+      </div>
+      </div>
+      <div class="rightForm">
+      <h1>Trip Proposal</h1><h2>Fields marked with an * are required</h2>
+      <form action="mailto:melissamision@gmail.com" method="post" enctype="text/plain"class="planATripForm" >
+        <!-- <a href="mailto:melissamision@gmail.com"></a> -->
+        <div class="fillForm">
+        <label for="fname">First Name*</label><br>
+        <input type="text" id="fname" name="fname" required><br></div>
+        <div class="fillForm">
+        <label for="lname">Last Name*</label><br>
+        <input type="text" id="lname" name="lname" required><br></div>
+        <div class="fillForm">
+        <label for="email">Email*</label><br>
+        <input type="text" id="email" name="email" required><br></div>
+        <div class="fillForm">
+
+        <label for="address">Address</label><br>
+        <input type="text" id="address" name="address"><br></div>
+        <div class="fillForm">
+
+        <label for="city">City</label><br>
+        <input type="text" id="city" name="city"><br><br></div>
+
+        <h1 class="headerForm">The Essentials</h1><h2>We use this information to generate a price estimate for ya! </h2>
+            <div class="fillForm">
+          <label for="organization">Organization/Group</label><p class="formParagraph">BOAT typically runs trips for groups - it doesn't need to be a formal organization though! Feel free to leave it blank if it doesn't feel right.</p>
+          <input type="text" id="organization" name="organization"></div>
+          <div class="fillForm">
+
+          <label for="participants">Number of Participants*
+          </label><p class="formParagraph">Estimates are OK! Larger trips cost more overall, but cost significantly less per person.</p>
+          <input type="text" id="participants" name="participants" required></div>
+          <div class="fillForm">
+
+          <label for="days">Number of Days*</label><p class="formParagraph">Estimates are OK! Longer trips cost more overall, but cost significantly less per day.</p>
+          <input type="text" id="days" name="days" required></div>
+          <div class="fillForm">
+
+          <label for="start">Proposed Start Location*</label>
+          <p class="formParagraph">If you have a specific address, great! Otherwise a city or neighborhood is fine - we'll find a place that can work well. 
+          </p>
+          <input type="text" id="start" name="start" required></div>
+          <div class="fillForm">
+
+          <label for="where">Where do you want to go?</label>
+            <p class="formParagraph">You don't need a place in mind - that's what we're here for. But if you do, feel free to share! 
+            </p>
+          <input type="text" id="where" name="where"></div>
+          <h1 class="headerForm">The Extras</h1><h2>This will help us come up with a better set of ideas for you. 
+        </h2>
+          <div class="fillForm">
+        <label for="budget">Estimated Budget</label>
+        <p class="formParagraph">If you have one, great! It'll help us understand the kind of program we can offer. If you don't (or just don't have a clue what a camping trip costs!) we'll give you a quote based on the above and break it all down for you.</p>
+        <input type="text" id="budget" name="budget"></div>
+        <div class="fillForm">
+
+        <label for="quote">How do you want your quote?
+        </label><p class="formParagraph">The actual cost doesn't change - different groups pay different ways, and we try to accomodate that. We can set up individual payment systems or work with your organization on payment.</p>
+        <input type="text" id="quote" name="quote"></div>
+        <div class="fillForm">
+
+        <label for="themes">Trip Themes & Educational Elements</label><p class="formParagraph">Also optional, but if there is a particular set of workshops or similar you're looking for, we'd love to know! Feel free to browse details here.</p>
+        <input type="text" id="themes" name="themes"></div>
+        <div class="fillForm">
+
+        <label for="additional">Anything else you want us to know or think about?</label><p class="formParagraph">Yup, literally anything at all!</p>
+        <input type="text" id="additional" name="additional"></div>
+                <input type="submit" id ="submitForm" class="intro btn enterSite inactiveBtn">
+
+        <!-- <input type="submit" id ="submitForm" value="submit" onsubmit="return validateForm()" class="intro btn enterSite inactiveBtn"> -->
+      </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <a href="index.html">
+        <img src="src/img/logo.png" alt="Logo" class="footer__logo"
+      /></a>
+      <li class="footer__item">
+        <a href="about.html">Follow us on Facebook</a>
+      </li>
+      <li class="footer__item">
+        <a href="about.html">See our Instagram photos</a>
+      </li>
+      <li class="footer__item">
+        <a href="work.html">Catch our Twitter Feed</a>
+      </li>
+      <li class="footer__item">
+        <a href="about.html">Donate</a>
+      </li>
+    </footer>
+  </body>
+</html>
